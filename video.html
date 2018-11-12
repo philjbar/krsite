@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang=en-GB>
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" type="image/png" href="http://www.philipjbarnard.com/krimages/kricon.png"/>
+<meta name="decription" content="">
+<meta name="keywords" content="kent render and plaster, render, rendering, render,
+plaster, plastering, plasterer, insulation, external wall insulation, ewi, kent,
+thanet, south-east, parex, fassa bortolo, monocouche">
+<title>KENT RENDER &amp; PLASTER | videos</title>
+<link rel="stylesheet" type="text/css" media="screen" href="kstyles.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="item1"><img src="http://www.philipjbarnard.com/krimages/kentR&PLogo_red.png"/></div>
+    <div class="item2"></div>
+    <div class="item3"><h1>telephone:</h1>
+                        <h2>07412 106179</h2></div>
+    <div class="item4"><h1>email:</h1>
+                        <h2>kentrender@gmail.com</h2></div>
+    <div class="item5" id="id1"><div class="mySlides fade">
+                        <img src="http://www.philipjbarnard.com/krimages/slider/image1.jpg" style="width:100%">
+                        <div class="text">example photo 1</div>
+                      </div>
+                      <div class="mySlides fade">
+                      <img src="http://www.philipjbarnard.com/krimages/slider/image2.jpg" style="width:100%">
+                      <div class="text">example photo 2</div>
+                      </div>
+                      <div class="mySlides fade">
+                      <img src="http://www.philipjbarnard.com/krimages/slider/image3.jpg" style="width:100%">
+                      <div class="text">example photo 3</div>
+                      </div>
+                      <div class="mySlides fade">
+                      <img src="http://www.philipjbarnard.com/krimages/slider/image4.jpg" style="width:100%">
+                      <div class="text">example photo 4</div>
+                      </div>
+                      <div class="mySlides fade">
+                      <img src="http://www.philipjbarnard.com/krimages/slider/image5.jpg" style="width:100%">
+                      <div class="text">example photo 5</div>
+                      </div>
+                      <div style="text-align:center">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </div>
+                  </div>
+    <div class="item6">arrow</div>
+    <div class="item7"><ul>
+                        <li><a class="dummy"></a></li>
+                        <li><a href="i.html" class="nactive">about us</a></li>
+                        <li><a href="video.html" class="active">videos</a></li>
+                        <li><a href="gallery.html" class="nactive">gallery</a></li>
+                        <li><a href="contact.html" class="nactive">contact</a></li>
+                      </ul>
+                    </div>
+    <div class="item8">
+      <div class="contholder" id="content">
+                  <h3>VIDEOS</h3>
+                  <div class="vids">
+                    <div class="vidholder">
+                        <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/o1ns0fWFvBc?rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="vidholder">
+                        <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/_OkPQaD1guE?rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <div class="vidholder">
+                        <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/Mqw2EYN3sTY?rel=0"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                  </div>
+      </div>
+
+    </div>
+    <div class="item9">
+      <a href="https://www.parex.co.uk/" target="_blank"><img border="0" alt="Parex" src="http://www.philipjbarnard.com/krimages/parexlogo.png" max-height="100px" width="auto"></a>
+      <a href="http://www.fassabortolo.co.uk/en" target="_blank"><img border="0" alt="Fassa Bortolo" src="http://www.philipjbarnard.com/krimages/fassalogo.png"  max-height="100px" width="auto"></a>
+    </div>
+    <div class="item10"><a href="http://www.philipjbarnard.com/" target="_blank">website by philipjbarnard.com</a>
+    </div>
+  </div>
+
+  <script>
+  var slideNum = 0;
+  slidesShow();
+
+  function slidesShow() {
+      var n;
+      var slidess = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (n = 0; n < slidess.length; n++) {
+         slidess[n].style.display = "none";
+      }
+      slideNum++;
+      if (slideNum > slidess.length) {slideNum = 1}
+      for (n = 0; n < dots.length; n++) {
+          dots[n].className = dots[n].className.replace(" active", "");
+      }
+      slidess[slideNum-1].style.display = "block";
+      dots[slideNum-1].className += " active";
+      setTimeout(slidesShow, 5000); // Change image every 5 seconds
+  }
+  </script>
+
+  </body>
+</html>
