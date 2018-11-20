@@ -585,7 +585,7 @@ and (orientation : portrait) {
   }
   h3{
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: -200px;
   }
   .item4 h1{
       margin-left: 0;
@@ -686,7 +686,7 @@ and (orientation : portrait) {
   }
   h3{
     font-size: 30px;
-    margin-left: 0;
+    margin-left: -200px;
   }
   .item4 h1{
       margin-left: 0;
