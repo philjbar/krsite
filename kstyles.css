@@ -585,6 +585,7 @@ and (orientation : portrait) {
   }
   h3{
     font-size: 30px;
+    margin-left: 20px;
   }
   .item4 h1{
       margin-left: 0;
@@ -601,6 +602,9 @@ and (orientation : portrait) {
   }
   .item7 ul{
     height: 90px;
+  }
+  .item8 {
+    min-height: 1000px;
   }
   li a {
     padding: 35px 30px;
@@ -682,6 +686,7 @@ and (orientation : portrait) {
   }
   h3{
     font-size: 30px;
+    margin-left: 20px;
   }
   .item4 h1{
       margin-left: 0;
@@ -698,6 +703,9 @@ and (orientation : portrait) {
   }
   .item7 ul{
     height: 90px;
+  }
+  .item8 {
+    min-height: 1000px;
   }
   li a {
     padding: 33px 30px;
