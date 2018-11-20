@@ -608,7 +608,7 @@ and (orientation : portrait) {
   }
   li a {
     padding: 35px 30px;
-    font-size: 0;
+    font-size: 22px;
   }
   .dummy {
     width: 1vw;
