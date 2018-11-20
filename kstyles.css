@@ -604,11 +604,11 @@ and (orientation : portrait) {
     height: 90px;
   }
   .item8 {
-    min-height: 1000px;
+    min-height: 1200px;
   }
   li a {
     padding: 35px 30px;
-    font-size: 22px;
+    font-size: 0;
   }
   .dummy {
     width: 1vw;
@@ -686,7 +686,7 @@ and (orientation : portrait) {
   }
   h3{
     font-size: 30px;
-    margin-left: 20px;
+    margin-left: 0;
   }
   .item4 h1{
       margin-left: 0;
@@ -705,7 +705,7 @@ and (orientation : portrait) {
     height: 90px;
   }
   .item8 {
-    min-height: 1000px;
+    min-height: 1200px;
   }
   li a {
     padding: 33px 30px;
