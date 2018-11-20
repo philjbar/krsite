@@ -611,7 +611,7 @@ and (orientation : portrait) {
     font-size: 22px;
   }
   .dummy {
-    width: 1vw;
+    width: 3vw;
     height: 90px;
   }
   .column {
@@ -712,7 +712,7 @@ and (orientation : portrait) {
     font-size: 22px;
   }
   .dummy {
-    width: 1vw;
+    width: 3vw;
     height: 90px;
   }
   .column {
